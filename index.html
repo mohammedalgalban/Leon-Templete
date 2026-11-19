@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- هذا بيحدد نوع الحروف عشان العربي والإنجليزي يظهروا صح بدون خربطة -->
+  <meta charset="UTF-8">
+  <!-- يطلب من المتصفح احدث طريقة لعرض العناصر -->
+  <meta http-equiv="X-UA-compatile" content="IT=edge">
+  <!-- وصف الموقع ولا يظهر بشكل مباشر ولكن يظهر عند البحث على الموقع  -->
+  <meta name="discription" content="صفحة ترحبية لموقعنا">
+  <!-- عرض الموقع بالابعاد المناسبة على جميع احجام الشاشات -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>leon</title>
+  <!-- نربط ال html f css للتنسيق -->
+  <link rel="stylesheet" href="main.css">
+  <!-- كود بنستدعي الخط من موقع google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+  <!-- ربط مكتبة الأيقونات الشهيرة (Font Awesome) عشان نقدر نستخدم الأيقونات الجاهزة زي القائمة وأيقونات السوشيال ميديا -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+  <!-- start header -->
+  <!-- راس الصفحة وكلو الي داخل الهيدير زي قالب واحد -->
+  <header>
+    <div class="container">
+      <!-- لوجو الموقع مع تحديد العرض تبعه -->
+      <img id="logo" src="images/logo.png" width="200px">
+      <!-- ايقونة القائمة -->
+      <i class="fa-solid fa-bars-staggered"></i>
+      <ul>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+      <!-- بنحطهم بقائمة مع سلم عشان لما نضعط ينزلني علي القسم نفسه -->
+    </div>
+  </header>
+  <!-- end header -->
+
+  <!-- start landing -->
+  <!-- الواجهة الرئيسة الترحيبية -->
+  <div class="landing">
+    <div class="intro">
+      <h1>Hello There</h1>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores eaque beatae obcaecati animi magnam. Hic sapiente ut fugiat dicta rem dolorum earum veniam temporibus, quas voluptatibus, illum error asperiores! Excepturi.</p>
+    </div>
+  </div>
+  <!-- end landing -->
+
+  <!-- start features -->
+   <!-- هذا الديف الكبير بيجمع كل قسم المميزات مع بعض عشان نتحكم فيه كانو كيان واحد -->
+  <div id="features">
+    <!-- ال container بتجمع محتويات القسم وبتساعدنا نرتبها -->
+    <div class="container">
+      <!-- العمود الاول -->
+      <div class="feat">
+        <i class="fa-solid fa-wand-sparkles"></i>
+        <h3>Feature</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad veniam architecto vitae et accusantium? Magni voluptatem, officiis saepe facere ipsum corrupti. Quibusdam sit consectetur sed non magnam, nobis culpa nam.</p>
+      </div>
+      <!-- العمود التاني -->
+      <div class="feat">
+        <i class="fa-regular fa-gem"></i>
+        <h3>Feature</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate sequi fugiat maxime earum cumque alias, quam, esse iste molestias voluptatum dolorum animi laboriosam voluptas dicta ex? Accusamus repellendus provident laudantium.</p>
+      </div>
+      <!-- العمودالتالت -->
+      <div class="feat">
+        <i class="fa-solid fa-earth-americas"></i>
+        <h3>Feature</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum a, assumenda quibusdam nam quam eveniet fuga? Soluta consequuntur laudantium porro? Doloribus perspiciatis earum in ab assumenda voluptates cum unde ex.</p>
+      </div>
+    </div>
+  </div>
+  <!-- end features -->
+
+  <!-- start services -->
+  <!-- نفس فكرة قسم المميزات -->
+  <div id="services">
+    <div class="container">
+      <h2 class="special-heading">Services</h2>
+      <p>Don't be busy, be productive</p>
+      <div class="inner-container">
+        
+        <!-- start col 1 -->
+        <div class="col">
+          <div class="serv">
+            <i class="fa-solid fa-pencil"></i>
+            <h3>Graphic Design</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut doloremque dicta nostrum explicabo ullam cupiditate numquam quae at deleniti alias laudantium inventore voluptatem ex tenetur ut doloribus quod, vel rerum.</p>
+          </div>
+          <div class="serv">
+            <i class="fa-solid fa-sliders"></i>
+            <h3>UI & UX</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam architecto nesciunt vitae dicta magni nobis, ducimus cumque fuga delectus iure illo sint repellat autem quidem voluptatum fugiat? Laboriosam, iusto nemo.</p>
+          </div>
+        </div>
+        <!-- end col 1 -->
+
+        <!-- start col 2 -->
+        <div class="col">
+          <div class="serv">
+            <i class="fa-solid fa-laptop"></i>
+            <h3>Web Design</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim culpa minima cupiditate amet unde, eveniet, ut saepe earum vel temporibus blanditiis maiores ipsum dolor, iusto recusandae? Numquam repudiandae nam doloremque.</p>
+          </div>
+          <div class="serv">
+            <i class="fa-solid fa-link"></i>
+            <h3>Web Development</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab, reprehenderit harum quia pariatur vel, ducimus labore suscipit aperiam enim modi ratione veritatis sed fugit corrupti eum dolorem dolores ut nisi!</p>
+          </div>
+        </div>
+        <!-- end col 2 -->
+
+        <!-- start col 3 -->
+        <div class="col">
+          <div class="serv">
+            <img src="images/licensed-image.jpg" width="200px">
+          </div>
+        </div>
+        <!-- end col 3 -->
+
+      </div>
+    </div>
+  </div>
+  <!-- end services -->
+
+  <!-- start portfolio -->
+  <div id="portfolio">
+    <div class="container">
+      <h2 class="special-heading">Portfolio</h2>
+      <p>If you do it right, it will last forever.</p>
+      <div class="inner-container">
+        <div class="full-project">
+          <img src="images/images2.jpg" width="250px" alt="Project 1">
+          <h4>Project 1</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, voluptas dicta ut quisquam architecto repudiandae placeat eveniet quis quidem ratione autem dolorum saepe atque magni, nobis soluta temporibus repellat ipsum.</p>
+        </div>
+        <div class="full-project">
+          <img src="images/images5.jpg" width="200px" alt="Project 2">
+          <h4>Project 2</h4>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit enim quia deleniti, repudiandae nostrum neque asperiores est voluptatibus optio maxime quo! Dignissimos soluta fugit nisi porro officiis voluptatem aut accusamus.</p>
+        </div>
+        <div class="full-project">
+          <img src="images/images1.jpg" width="200px" alt="Project 3">
+          <h4>Project 3</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis assumenda officia vel vero inventore beatae modi tenetur exercitationem voluptatibus dolorum ratione quidem necessitatibus officiis iusto aperiam fugit, possimus quo molestias!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end portfolio -->
+
+  <!-- start about -->
+  <div id="about">
+    <div class="container">
+      <h2 class="special-heading">About</h2>
+      <p>Less is more work</p>
+      <div class="about-content">
+        <div class="about-image">
+          <img src="images/images3.jpg" width="200px" alt="About">
+        </div>
+        <div class="text">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis neque soluta laborum dolores cumque velit quasi molestias ad ullam. Ab suscipit quae ipsum eligendi quaerat dolore ut temporibus iusto nobis.</p>
+          <hr>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat minus quisquam exercitationem ex accusantium laborum numquam esse provident laudantium aliquam placeat, ipsum praesentium reprehenderit voluptatum? Sed obcaecati eveniet neque fuga.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end about -->
+
+  <!-- start contact -->
+  <div id="contact">
+    <div class="container">
+      <h2 class="special-heading">Contact</h2>
+      <p>We are born to create</p>
+      <h3>Feel free to drop us a line at:</h3>
+      <a href="mailto:leon@gmail.com">leon@gmail.com</a>
+      <div class="social">
+        <span>Contact Us</span>
+        <!-- ايقونات التواصل -->
+        <a><i class="fa-brands fa-google"></i></a>
+        <a><i class="fa-brands fa-facebook"></i></a>
+        <a><i class="fa-brands fa-x-twitter"></i></a> 
+      </div>
+    </div>
+  </div>
+  <!-- end contact -->
+
+  <!-- هسا بالنسبة للديف بنستخدمه كحاوية بنحط جواها مجموعة من العناصر وبنجمعها مع بعض مثلاً أيقونة وعنوان وفقرة -->
+  <!-- بعد ما نضيف الديف بنعطيه اسم عن طريق الكلاس أو الاي دي عشان نقدر نستدعيه بعدين بملف السي س س للتنسيق -->
+  <!-- وبننسق العناصر اللي جواه زي العناوين والبراغراف والصور والإيميج والأيقونات والاتش ار ونتحكم بشكلها وترتيبها -->
+</body>
+</html>
